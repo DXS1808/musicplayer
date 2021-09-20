@@ -1,0 +1,148 @@
+.player{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(243, 239, 239);
+    height: auto;
+    max-width: 332px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y:auto;
+    
+}
+.dashboard{
+    padding: 16px 16px 14px;
+    background-color:#fff;
+    position: fixed; 
+    width: 100%;
+    max-width: 300px;
+    border-bottom: 1px solid rgb(173, 158, 158);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08) ; 
+}
+
+
+h4{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(230, 33, 66);
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+
+}
+/* .btn--play::before{
+    content: none;
+} */
+
+.dashboard-plus{
+    color: rgb(235, 98, 121);
+    float:right;
+    align-items: center;
+}
+.dashboard-down{
+    color: rgb(235, 98, 121);
+    float:left;
+    align-items: center;
+    font-size:120%
+}
+.cd-thumb {
+    width:200px;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.control{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.btn+.btn{
+    padding-left: 15.33%;
+}
+.progress{
+   -webkit-appearance: none;
+   width:100%;
+   height:5px;
+   background: #d3d3d3;
+   outline: none;
+   opacity: 0,7;
+   transition: opacity .2s;
+   cursor: pointer;
+
+}
+.progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width:10px;
+    height:5px;
+    background: rgb(235, 89, 113);
+
+}
+
+
+.btn-toggle-play{
+    font-size: 200%;
+    color:rgb(228, 60, 88);
+    align-items: center;
+
+}
+.thumb img {
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-bottom:auto;
+    margin-top: auto;
+
+   
+}
+.playlist{
+    
+    margin-top: 420px; 
+    padding: 12px; 
+   
+}
+.body{
+    padding-left: 12px;
+}
+
+.song{
+     
+    display: flex;
+    padding:10px;
+   box-sizing: inherit;
+   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08) ; 
+   background-color: #fff;
+   border-radius: 5px;
+
+    
+}
+.song+.song{
+    margin-top: 12px;
+}
+p.author {
+    opacity: 0.7;
+    margin: 0 0;
+    font-size: 80%;
+}
+h3.tittle{
+    margin: 0 0;
+    font-size: 80%;
+}
+.fa-ellipsis-h{
+    color: rgb(150, 16, 39);
+}
+.active{
+    color: rgb(228, 60, 88);
+}
+.song.active{
+    background-color: rgb(228, 60, 88); 
+    color: #fff
+}
+.song:active{
+    opacity:0.5
+}
